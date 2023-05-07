@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desenvolver um card de personagem de Star Wars, em homenagem ao May the 4h. Escolhi desenvolver um card do Baby Yoda, que tem seu aparecimento na Série Mandalorian. Foi criado um card simples para versão desktop e para versão mobile utilizei javascript, para mostrar e esconder os dados do personagem.
 
-- [Visite o projeto]()
+- [Visite o projeto](https://wilkasantos.github.io/desafio-BoraCodar-CardPersonagemStarWars/)
 
 <br>
 ## 🔖 Layout
