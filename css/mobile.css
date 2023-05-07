@@ -1,0 +1,43 @@
+
+@media(max-width: 550px){
+
+    .hero{
+        position: relative;
+        width: 31rem;
+        height: 17rem;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+
+        overflow: hidden;
+    }
+
+    .babyYodaImg{
+        width: 17rem;
+    }
+    
+    .arrow{
+        width: 1.5rem;
+        height: 1.5rem;
+
+        top: 37.5rem;
+        left: 13rem;
+
+        cursor: pointer;
+        animation: balance 1s infinite ease-in;
+    }
+
+    @keyframes balance {
+        0%{
+            top: 37.2rem;
+        }
+        100%{
+            top: 37.5rem; 
+        }
+    }
+
+    .active{
+        transform: rotate(180deg);
+    }
+}

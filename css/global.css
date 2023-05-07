@@ -1,0 +1,35 @@
+@import './mobile.css';
+@import './desktop.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    font-size: 62.5%;
+
+    --ff-page:  'Roboto', sans-serif;
+    
+    --bg-card: #000000;
+    --bg-page: linear-gradient(5deg, rgba(2,0,36,1) 0%, rgba(213,120,6,1) 7%, rgba(213,192,137,1) 74%);
+
+    --c-primary: #ffffff7a;
+    --c-special: #fff;
+}
+
+.page{
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--bg-page);
+}
